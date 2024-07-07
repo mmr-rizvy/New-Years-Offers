@@ -1,0 +1,390 @@
+/* Google Fonts Embed links */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+/* Browser Resting Here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Utility Classes */
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+.text-primary {
+  color: #f00;
+}
+.btn {
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.btn-primary {
+  background: #f00;
+}
+.btn-primary:hover {
+  background: rgb(219, 0, 0);
+}
+.text-center {
+  text-align: center;
+}
+/* Hero Section Styling Start Here */
+#hero .hero-container {
+  height: 600px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../img/Banner\ Image.png) no-repeat center / cover;
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-subtitle {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+}
+.hero-title {
+  width: 632px;
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+/* Hero Section Styling End Here */
+/* Offers Section Styling Start Here*/
+#offers {
+  margin: 120px auto;
+  text-align: center;
+}
+#offers .large-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+#offers .offers-subtitle {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.offers-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+/* Offers Section Styling End Here */
+/* Party Section Styling Start Here */
+#party .party-container {
+  height: 600px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../img/Vectorrr.png) no-repeat center / cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.party-text {
+  margin-left: 126px;
+  width: 680px;
+}
+.party-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+.party-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 24px 0 32px;
+}
+.party-button {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.party-img {
+  margin-right: 138px;
+}
+/* Party Section Styling End Here */
+/* Event Section Styling Start Here */
+#event .event-container {
+  height: 482px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+#event .event-container .event-info {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.event-button {
+  margin-top: 48px;
+}
+/* Event Section Styling End Here */
+/* Coming-Soon Section Styling Start Here */
+#coming-soon {
+  margin: 120px 0px;
+}
+#coming-soon .coming-soon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.coming-soon-left {
+  width: 35%;
+  margin-right: 70px;
+}
+.coming-soon-left-subtitle {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.coming-soon-left-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 16px 0px 22px;
+}
+.coming-soon-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.coming-soon-center {
+  width: 35%;
+  margin-right: 118px;
+}
+.coming-soon-center img {
+  width: 100%;
+  padding: 50px;
+  border-radius: 50%;
+  border: 15px solid #f00;
+}
+.coming-soon-right {
+  width: 30%;
+}
+.coming-soon-right-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.coming-soon-right img {
+  display: block;
+  margin-top: 43px;
+}
+/* Coming-Soon Section Styling End Here */
+/* Holiday Sale Section Styling Start Here */
+/* #holiday-sale {
+} */
+.holiday-sale-container {
+  background: url(../img/Rectangle\ 2.png) no-repeat left bottom;
+  position: relative;
+}
+.holiday-sale-subtitle {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-sale-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin: 16px 0px 28px;
+}
+.holiday-sale-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  width: 1068px;
+  margin: 0 auto;
+}
+.holiday-img .img-right {
+  position: absolute;
+  top: 35%;
+  right: 5%;
+}
+/* Holiday Sale Section Styling End Here */
+/* Portfolio Section Styling Start Here */
+#portfolio {
+  margin: 120px 0px;
+}
+.portfolio-subtitle {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.portfolio-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 16px 0px 22px;
+}
+.portfolio-description {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.portfolio-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.portfolio-image img {
+  width: 424px;
+  height: 450px;
+  margin-bottom: 24px;
+}
+/* Portfolio Section Styling End Here */
+/* Newsletter Section Styling Start Here */
+.newsletter-container {
+  height: 600px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  overflow: hidden;
+}
+.newsletter-content {
+  margin: 80px 0px 48px;
+}
+.newsletter-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 40px 0px 22px;
+}
+.newsletter-description {
+  width: 896px;
+  margin: 0 auto;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.newsletter-input-box input {
+  padding: 25px 30px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  outline: none;
+  border: none;
+}
+.newsletter-input-box input[type="email"] {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  width: 500px;
+}
+.newsletter-input-box input[type="submit"] {
+  background-color: #f00;
+  color: #fff;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  cursor: pointer;
+  padding: 25px 50px;
+}
+.newsletter-input-box input[type="submit"]:hover {
+  background: rgb(219, 0, 0);
+}
+/* Newsletter Section Styling End Here */
+/* Footer Section Styling Start Here */
+#footer-section {
+  height: 600px;
+  background: #070211;
+  margin-top: 120px;
+}
+.footer-container {
+  padding: 120px 0px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-top-left p,
+.footer-top-right p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer-middle {
+  margin: 50px 0px;
+  text-align: center;
+}
+.footer-middle img {
+  margin: 48px 24px;
+}
+.footer-middle img:last-child {
+  margin-right: 0px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom p,
+.footer-bottom a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+/* Footer Section Styling End Here */
